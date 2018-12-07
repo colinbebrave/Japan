@@ -20,7 +20,7 @@ public class binaryInsertSort {
             while (p > end)
             {
                 arr[p] = arr[p - 1];
-                p--;
+                --p;
             }
             arr[p] = temp;
         }
